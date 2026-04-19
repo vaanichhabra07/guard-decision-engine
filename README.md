@@ -32,7 +32,7 @@ You only observe signals:
 - Override commands  
 - Number of people inside  
 
----
+
 
 ## 📊 The Key Shift
 
@@ -42,9 +42,7 @@ At first, the problem looks like:
 But in a real system, the question is:
 > “Given these signals, what is the safest action right now?”
 
----
-
-## ⚙️ Decision Model
+##  Decision Model
 
 The system follows a strict priority-based approach:
 
@@ -74,7 +72,7 @@ The system follows a strict priority-based approach:
 
 ---
 
-## ⚡ How It Thinks
+## How It Thinks
 
 The system does not try to guess the “correct” door.
 
@@ -86,7 +84,7 @@ Instead, it:
 
 ---
 
-## 🔍 Why This Approach
+##  Why This Approach
 
 This design reflects how real systems behave:
 
@@ -96,15 +94,9 @@ This design reflects how real systems behave:
 
 It’s closer to how operating systems, safety systems, and control systems make decisions.
 
----
 
-## 🧩 In One Line
 
-A simple door-selection problem becomes a model of how systems make safe decisions by responding to signals in the right order.
-
----
-
-## 🚀 How to Run
+ How to Run
 
 ```bash
 g++ main.cpp -o run
